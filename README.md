@@ -79,3 +79,14 @@ if this fixes your issue please file a pull request.
 
 microsocks uses the smallest safe thread stack size to minimize overall memory
 usage.
+
+build
+```
+make
+sudo make install
+```
+
+run
+```
+microsocks -q -i 127.0.0.1 -p 1080
+```
